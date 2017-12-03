@@ -1,0 +1,524 @@
+html{
+  height: 100%;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height:100%;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    background: rgb(171,202,205);
+}
+section {
+  padding: 0 30px; }
+
+section::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+  #headerImg{
+    margin-top:0px;
+    height: 5%;
+    background-size: 24%;
+    background-image: url(../img/xmasbanner2.png);
+    background-repeat: repeat-x;
+  }
+
+  section.main {
+    min-height: 100%;
+        margin-bottom: -100px;
+        padding-top   : 50px;
+        padding-bottom: 100px;
+
+        box-sizing: border-box;
+    }
+
+  a {
+      color: #007eff;
+    }
+
+  a:visited {
+          color: white;
+        }
+
+
+  .footer{
+      -webkit-text-fill-color: white;
+      height: 3rem;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      right: 1rem;
+      bottom: 0px;
+      border: 0px;
+    }
+
+  .container{
+      vertical-align: middle;
+    }
+
+
+  .btn {
+      font-size: 4rem;
+      width: 90%;
+      text-decoration: none;
+      color: white;
+      white-space: normal;
+      text-align: center;
+      border: 1px solid inset hidden;
+      background-color:rgb(190,73,99);
+      padding: 4px 15px;
+      transition-delay: .5s;
+      margin-bottom: 5%;
+    }
+
+  .btn:hover {
+      background-color: rgb(196, 45, 78);
+
+    }
+
+/*Text*/
+#headerTitle{
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 3.5em;
+  margin-top: 12%;
+  color:rgb(180,141,76) !important;
+}
+
+
+#summary{
+  font-size: 3em;
+
+}
+#SecondaryHeading{
+  color: rgb(180,141,76);
+  clear: both;
+}
+
+h1{
+      font-size: 2.4em;
+      font-weight: 700;
+    }
+
+
+p {
+      margin: 0 0 1em 0;
+    }
+
+
+  /* Carousel */
+
+div.carousel{
+  background-color: rgb(180,141,76);
+  margin-bottom: 7%;
+}
+
+.carousel p {
+    margin-top:3rem;
+      font-size: 3rem;
+      font-style: italic;
+      color:whitesmoke;
+      line-height: 1.4;
+  }
+.carousel small{
+  color: ghostwhite;
+  float: right;
+  margin-right: 2%;
+  font-size: 2rem;
+
+}
+
+.carousel-control.left, .carousel-control.right {
+      background-image: none
+  }
+
+.carousel-inner .item img[src$=".svg"] {
+    margin-top: .5rem;
+    text-align:center;
+      width: 100%;
+      color:
+      padding:5%;
+  }
+
+.carousel p{
+    padding: 5%;
+    color:rgb(72,72,70) !important;
+  }
+
+div.carousel{
+    border-radius: 1rem;
+    background-color: rgb(242,241,237);
+  }
+
+  .carousel small{
+    color:rgb(72,72,70) !important;
+
+  }
+
+/*Media queries */
+
+@media only screen and (min-width: 500px) {
+section.main{
+  margin-top: 3%;
+  padding-top: 0px;
+}
+
+.btm{
+  margin-bottom: 0rem;
+}
+
+#headerImg{
+  height:13rem;
+  background-size: 45%;
+}
+#headerTitle{
+  font-size: 4rem;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.img-fluid{
+  width:47%;
+  float: none;
+}
+
+.img{
+  text-align: center;
+}
+
+.btn{
+  width:49%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#btntext{
+  width:30%
+  float:right;
+  margin-right: -46%;
+  font-size: 1.5rem;
+  margin-top:-27%;
+}
+
+.col-xs-3{
+  width:100%;
+}
+
+.col-xs-9{
+  width: 100%;
+  margin-top:17rem;
+
+}
+.carousel p{
+  width:100%;
+  padding: 0px;
+  font-size: 3rem;
+}
+
+div.carousel{
+  margin-top:20%;
+  margin-bottom: 4rem;
+  clear:both;
+}
+.col-xs-9{
+  margin-top:0px;
+}
+
+#footerButton{
+  width:100%;
+}
+
+#summary{
+  font-size: 2rem;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  h1{
+  text-align: center;
+  }
+
+.carousel p{
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+div.carousel{
+  margin-bottom: 7%;
+  margin-top:7rem;
+}
+
+#headerTitle{
+font-size: 3.5rem;
+margin-top:3%;
+}
+
+section.main{
+  margin-top:4%;
+  padding-top:0px;
+  padding-bottom: 0px;
+}
+
+#headerImg{
+  background-size: 32%;
+  height: 12rem;
+}
+
+#summary{
+  font-size: 3rem;
+  margin-left: 6rem;
+  color: rgb(72,72,70);
+}
+
+.btn{
+  font-size: 3rem;
+  margin-top: 17%;
+  margin-bottom: 5%;
+  padding-right: 0px;
+}
+
+.img-fluid{
+  width:42%;
+  float:none;
+}
+
+#btntext{
+  margin-right: -42%;
+  margin-top: -18%;
+  margin-left: 0%;
+}
+
+}
+@media (min-width: 768px){
+  #headerTitle{
+    font-size: 4rem;
+    margin-top:-1%;
+    text-align: center;
+  }
+
+.btn{
+  font-size: 2rem;
+  margin-top: -1rem;
+  margin-right: 66%;
+  width: 32%;
+}
+
+#headerImg{
+    background-size: 18rem;
+    height: 13rem;
+    background-size: 25%;
+  }
+
+.img-fluid{
+    width: 32%;
+    float: left;
+    margin-bottom: 2rem;
+  }
+
+  #btntext{
+    margin-right: 65%;
+    margin-top: -4%;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .carousel p{
+    font-size: 2rem;
+    margin-top: 0px;
+    padding: 5%;
+  }
+
+div.carousel{
+  margin-bottom: -2rem;
+  margin-top:-54%;
+  margin-bottom: 7%;
+  width:59%;
+  float:right;
+}
+
+.col-xs-11{
+  width: 100%;
+}
+
+#footerButton{
+  clear:both;
+  margin-top: 15%;
+}
+
+#summary{
+  margin-top: 0px;
+}
+
+.col-xs-9{
+  margin-top: -1rem;
+}
+h1{
+  font-size: 4rem;
+}
+
+}
+
+@media (min-width: 1000px){
+  #summary{
+    margin-top: 1rem;
+    margin-left: 0px;
+  }
+
+  div.carousel{
+    float: right;
+    margin-top: -48%;
+    width: 71%;
+  }
+
+  p#btntext{
+    margin-right: 71%;
+    margin-top:-4%;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+  }
+
+a.btn.btn-primary{
+  margin-right: 72%;
+  width:21%;
+  font-size: 2rem;
+}
+
+section.main{
+  min-height: 87%;
+  margin-left: 3%;
+}
+
+.img-fluid{
+  float: left;
+  width: 28%;
+}
+
+#SecondaryHeading{
+  clear: both;
+}
+
+#footerButton{
+  margin-top: 11%;
+}
+
+div.col-xs-11{
+  width: 100%;
+}
+
+.carousel p{
+  font-size:3rem;
+}
+
+#headerImg{
+  height: 17rem;
+}
+
+}
+
+@media (min-width: 1200px){
+  #headerImg{
+    background-size: 21%;
+    height:17rem;
+  }
+
+  .img-fluid{
+    float: left;
+    width:22%;
+  }
+
+.carousel p{
+    width:100%;
+}
+
+div.carousel{
+  float:right;
+  margin-top: -41%;
+}
+
+.col-xs-9{
+  width:75%;
+  margin-top:0px;
+}
+
+#headerTitle{
+  font-size: 6rem;
+  margin-top: -1%;
+  text-align: center;
+}
+
+#summary{
+  9%;
+}
+
+a.btn.btn-primary{
+  margin-right: 75%;
+}
+
+p#btntext{
+  margin-right: 75%;
+}
+
+}
+
+@media (min-width: 1295px){
+
+section.main{
+  margin-top: 2%;
+}
+
+div.carousel{
+  margin-top: -43%;
+  width:58%;
+  margin-right: 10%;
+}
+
+img.img-fluid{
+  float: left;
+  width:22%;
+  margin-left: 3%;
+  margin-bottom: .5%;
+}
+
+#headerImg{
+  background-size: 20%;
+  height: 16rem;
+}
+
+#headerTitle{
+  font-size: 7rem;
+}
+
+.carousel p{
+  font-size: 3rem;
+}
+
+a.btn.btn-primary{
+  margin-right: 70%;
+  width:24%;
+
+}
+
+p#btntext{
+  margin-left: 6rem;
+  margin-top: -4%;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
+#summary{
+  text-align: left;
+  font-size: 4rem;
+  margin-top:-2%;
+}
+
+h1{
+  text-align: center;
+}
+
+}
